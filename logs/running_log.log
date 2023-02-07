@@ -1,0 +1,79 @@
+[2022-12-16 15:53:46,321: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-12-16 15:53:46,321: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-12-16 15:53:46,321: INFO: 01_generate_img_pkl]: stage_01_ completed >>>
+[2022-12-16 16:08:28,520: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-12-16 16:08:28,522: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-12-16 16:08:28,530: INFO: 01_generate_img_pkl]: stage_01_ completed >>>
+[2022-12-16 16:25:37,925: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-12-16 16:25:37,928: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-12-16 16:25:39,900: INFO: 01_generate_img_pkl]: stage_01_ completed >>>
+[2022-12-16 16:28:51,850: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-12-16 16:28:51,850: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-12-16 16:28:52,026: INFO: 01_generate_img_pkl]: stage_01_ completed >>>
+[2022-12-16 16:35:47,486: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-12-16 16:35:47,489: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-12-16 16:35:47,656: INFO: 01_generate_img_pkl]: Total actress are : 100
+[2022-12-16 16:35:47,656: INFO: 01_generate_img_pkl]: Total actress images : 8664
+[2022-12-16 16:35:47,661: INFO: 01_generate_img_pkl]: stage_01_ completed >>>
+[2022-12-16 17:43:28,746: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-16 17:43:28,761: ERROR: 02_feature_extractor]: __init__() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 66, in <module>
+    feature_extractor(config_path= parsed_args.config, params_path= parsed_args.params)
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 42, in feature_extractor
+    model = VGGFace(model = model_name, include_tops=include_tops,input_shape=(224,224,3), pooling=poolings)
+TypeError: __init__() got an unexpected keyword argument 'model'
+[2022-12-16 17:43:47,690: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-16 17:43:47,698: ERROR: 02_feature_extractor]: __init__() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 66, in <module>
+    feature_extractor(config_path= parsed_args.config, params_path= parsed_args.params)
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 42, in feature_extractor
+    model = VGGFace(model = model_name, include_top=include_tops,input_shape=(224,224,3), pooling=poolings)
+TypeError: __init__() got an unexpected keyword argument 'model'
+[2022-12-16 17:44:35,595: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-16 17:44:35,595: ERROR: 02_feature_extractor]: __init__() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 66, in <module>
+    feature_extractor(config_path= parsed_args.config, params_path= parsed_args.params)
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 42, in feature_extractor
+    model = VGGFace(model= model_name, include_top=include_tops,input_shape=(224,224,3), pooling=poolings)
+TypeError: __init__() got an unexpected keyword argument 'model'
+[2022-12-16 17:53:25,195: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-16 17:53:25,195: ERROR: 02_feature_extractor]: __init__() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 67, in <module>
+    feature_extractor(config_path= parsed_args.config, params_path= parsed_args.params)
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 43, in feature_extractor
+    Model = VGGFace(model=model_name, include_top=include_tops,input_shape=(224,224,3), pooling=poolings)
+TypeError: __init__() got an unexpected keyword argument 'model'
+[2022-12-16 17:53:58,058: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-16 17:53:58,058: ERROR: 02_feature_extractor]: __init__() got an unexpected keyword argument 'Model'
+Traceback (most recent call last):
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 67, in <module>
+    feature_extractor(config_path= parsed_args.config, params_path= parsed_args.params)
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 43, in feature_extractor
+    Model = VGGFace(Model=model_name, include_top=include_tops,input_shape=(224,224,3), pooling=poolings)
+TypeError: __init__() got an unexpected keyword argument 'Model'
+[2022-12-16 17:54:45,668: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-16 17:54:45,676: ERROR: 02_feature_extractor]: __init__() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 67, in <module>
+    feature_extractor(config_path= parsed_args.config, params_path= parsed_args.params)
+  File "c:\Users\Ajay\OneDrive\Desktop\Face matching application\src\02_feature_extractor.py", line 43, in feature_extractor
+    model = VGGFace(model=model_name, include_top=include_tops,input_shape=(224,224,3), pooling=poolings)
+TypeError: __init__() got an unexpected keyword argument 'model'
+[2022-12-17 10:47:09,627: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-17 10:47:09,642: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-12-17 10:47:09,642: INFO: 02_feature_extractor]: stage_02_ completed >>>
+[2022-12-17 10:48:19,625: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-17 10:48:19,625: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-12-17 10:48:19,625: INFO: 02_feature_extractor]: stage_02_ completed >>>
+[2022-12-17 11:06:14,708: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-17 11:09:43,511: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-12-17 11:09:44,164: INFO: utils]: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-12-17 11:09:44,164: INFO: utils]: NumExpr defaulting to 8 threads.
+[2022-12-17 11:25:20,894: INFO: 02_feature_extractor]: stage_02_ completed >>>
+[2022-12-20 01:50:15,316: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-12-20 01:50:16,522: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-12-20 02:06:43,678: INFO: 02_feature_extractor]: stage_02_ completed >>>
